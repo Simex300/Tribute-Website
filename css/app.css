@@ -1,0 +1,42 @@
+h1, h2, h3, h4, h5, h6, p{
+    text-shadow: 1px 1px #777;
+}
+
+h1.invert,
+h2.invert,
+h3.invert,
+h4.invert,
+h5.invert,
+h6.invert,
+p.invert{
+    color: #ddd;
+}
+
+.nav-item > a{
+    color:  #999;
+    text-decoration: none;
+}
+
+.nav-item > a:hover{
+    color:  #ddd;
+    background: radial-gradient(-300% 50%, farthest-side, #eee, rgba(0, 0, 0, 0.01));
+    background: -webkit-radial-gradient(-300% 50%, farthest-side, #eee, rgba(0, 0, 0, 0.01)); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(-300% 50%, farthest-side, #eee, rgba(0, 0, 0, 0.01)); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(-300% 50%, farthest-side, #eee, rgba(0, 0, 0, 0.01)); /* For Firefox 3.6 to 15 */
+}
+
+#title{
+    background: url('https://i1.wp.com/images6.fanpop.com/image/photos/39500000/Kimi-no-Na-wa-Wallpaper-kimi-no-na-wa-39515376-1920-1080.png') no-repeat center center fixed;
+}
+
+#content{
+    background: url('../img/content.jpg') no-repeat center center fixed;
+}
+
+#footer{
+    background: url('https://images3.alphacoders.com/731/thumb-1920-731741.png') no-repeat center center fixed;
+}
+
+#blockquote{
+    background: rgba(0,0,0.0.4);
+}
