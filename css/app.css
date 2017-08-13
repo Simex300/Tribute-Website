@@ -19,10 +19,10 @@ p.invert{
 
 .nav-item > a:hover{
     color:  #ddd;
-    background: radial-gradient(-300% 50%, farthest-side, #eee, rgba(0, 0, 0, 0.01));
-    background: -webkit-radial-gradient(-300% 50%, farthest-side, #eee, rgba(0, 0, 0, 0.01)); /* Safari 5.1 to 6.0 */
-    background: -o-radial-gradient(-300% 50%, farthest-side, #eee, rgba(0, 0, 0, 0.01)); /* For Opera 11.6 to 12.0 */
-    background: -moz-radial-gradient(-300% 50%, farthest-side, #eee, rgba(0, 0, 0, 0.01)); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(0% 50%, farthest-side, #eee -30%, rgba(0, 0, 0, 0.01) 45%);
+    background: -webkit-radial-gradient(0% 50%, farthest-side, #eee -30%, rgba(0, 0, 0, 0.01) 45%); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(0% 50%, farthest-side, #eee -30%, rgba(0, 0, 0, 0.01) 45%); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(0% 50%, farthest-side, #eee -30%, rgba(0, 0, 0, 0.01) 45%); /* For Firefox 3.6 to 15 */
 }
 
 #title{
